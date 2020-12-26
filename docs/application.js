@@ -65,6 +65,8 @@ document.getElementById("product-form").addEventListener('submit', function (e) 
     e.preventDefault();
 });
 
+
+//Evento que captura el elemento a eliminar
 document.getElementById("product-list").addEventListener('click', function (e) {
     const ui = new UI();
     ui.deleteProduct(e.target);
